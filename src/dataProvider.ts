@@ -2,21 +2,21 @@ import localforageDataProvider from "ra-data-local-forage";
 import localforage from "localforage";
 
 const data = {
-  todos: [
+  tareas: [
     {
       id: 0,
-      title: "Wash the dishes",
-      completed: false,
+      titulo: "Lavar los platos",
+      completada: false,
     },
     {
       id: 1,
-      title: "Do the laundry",
-      completed: true,
+      titulo: "Hacer la lavandería",
+      completada: true,
     },
     {
       id: 2,
-      title: "Buy groceries",
-      completed: false,
+      titulo: "Comprar víveres",
+      completada: false,
     },
   ],
 };
